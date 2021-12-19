@@ -1,0 +1,85 @@
+.content {
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    font-size: 30px;
+    background: url(./../images/user_card_bg2.jpeg);
+    background-color: violet;
+    background-size: cover;
+    height: 100vh;    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.user_card {
+    min-width: 300px;
+    max-width: 350px;
+    min-height: 350px;
+    background: white;
+    border-radius: 10px;
+    padding: 0 15px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user_photo {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid purple;
+    border-radius: 50%;
+    margin-top: -50px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 0px 5px rgb(255, 255, 255);
+}
+/* I guess it needs another solution for positioning user photo */
+.user_name {
+    margin-bottom: 10px;
+}
+
+.user_ocupation {
+    font-size: 0.5em;
+    margin-bottom: 5px;
+}
+
+.user_location {
+    font-size: 0.4em;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    width: 100%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.164);
+}
+
+.amount_of_followers {
+    font-size: 0.8em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+
+.followers_photos img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.followers_photos {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.socials {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: auto;
+}
