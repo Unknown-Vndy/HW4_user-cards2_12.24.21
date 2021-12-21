@@ -79,7 +79,20 @@
 .socials {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    /* gap: 10px; */
     justify-content: center;
     margin-top: auto;
+}
+
+.socials a{
+    color: grey;
+}
+
+.socials li:not(:last-child) {
+    padding-right: 10px;
+    border-right: 1px solid grey;
+}
+
+.socials li:not(:first-child){
+    padding-left: 10px;
 }
